@@ -1,0 +1,27 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SFMLWin32Console</Name>
+    <Description>SFML 32bit Windows Console Application</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SFMLWin32Console</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SFMLWin32Console.vcxproj" File="SFMLWin32Console.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">SFMLWin32Console.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" OpenInEditor="true">Main.cpp</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>SFMLWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=254e0fb985efa463</Assembly>
+    <FullClassName>SFMLWizard.WizardImplementation</FullClassName>
+  </WizardExtension>
+</VSTemplate>
